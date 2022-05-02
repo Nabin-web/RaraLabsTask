@@ -1,0 +1,59 @@
+#heading {
+  position: relative;
+  top: 49px;
+  height: 48px;
+  box-shadow: 0px 1px 0px #e0e5eb;
+  align-items: center;
+  border: none;
+  outline: none;
+  color: black;
+}
+
+.userData {
+  position: relative;
+  top: 49px;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid #e0e5eb;
+  box-shadow: 0px 1px 0px #e0e5eb;
+}
+
+.userHead {
+  color: #343c46;
+  font-weight: 500;
+  position: relative;
+  top: 28px;
+  left: 34px;
+  font-size: 20px;
+}
+
+input[type="text"] {
+  padding: 8px 12px;
+  margin: 8px 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  float: right;
+}
+.search {
+  position: relative;
+  top: 28px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+.btnCount {
+  position: relative;
+  top: 40px;
+}
